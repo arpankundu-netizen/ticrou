@@ -1,0 +1,954 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- cdn link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Boostrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Swiper link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- LEFT INFO -->
+        <div class="col-lg-8">
+          <ul class="topbar-left d-flex flex-wrap align-items-center gap-4 m-0 p-0">
+            <li>
+              <i class="fa-regular fa-envelope me-2"></i>
+              info@example.com
+            </li>
+            <li>
+              <i class="fa-regular fa-clock me-2"></i>
+              Open Hours: Mon - Fri 8.00 am - 6.00 pm
+            </li>
+
+            <!-- Social -->
+            <li class="social-icons d-flex align-items-center">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://x.com/" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- RIGHT BUTTON -->
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+          <a href="#" class="btn book-btn">Book An Table</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- topbar end -->
+  <!-- Navbar start -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-xl navbar-light bg-white">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="images/banner logo.png" width="150" alt="logo" />
+        </a>
+
+        <!-- Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <div class="menu-close" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Service</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- Right Icons -->
+          <div class="d-flex align-items-center nav-icons me-3">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+            <a href="#" class="cart-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart-count">3</span>
+            </a>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Navbar end -->
+  <main>
+    <!-- Banner Section start -->
+    <section class="banner">
+      <div class="container-fluid p-0">
+        <div class="swiper bannerSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="bg-slide" style="
+                    background-image:
+                      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url(&quot;images/banner-1.jpg&quot;);
+                  "></div>
+              <div class="banner-content">
+                <span class="ultimate-style"> Ultimate Food </span>
+                <h1 class="banner-title">We Serve Quality Food</h1>
+                <p class="banner-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  Turpis ridiculus tellus.
+                </p>
+                <div class="banner-btn">
+                  <a href="index.html">Make Reservation</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="bg-slide" style="
+                    background-image:
+                      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url(&quot;images/banner-2.jpg&quot;);
+                  "></div>
+              <div class="banner-content">
+                <span class="ultimate-style"> Ultimate Food </span>
+                <h1 class="banner-title">We Serve Quality Food</h1>
+                <p class="banner-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  Turpis ridiculus tellus.
+                </p>
+                <div class="banner-btn">
+                  <a href="index.html">Make Reservation</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="bg-slide" style="
+                    background-image:
+                      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                      url(images/banner-3.jpg);
+                  "></div>
+              <div class="banner-content">
+                <span class="ultimate-style">Ultimate Food</span>
+                <h1 class="banner-title">We Serve Quality Food</h1>
+                <p class="banner-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  Turpis ridiculus tellus.
+                </p>
+                <div class="banner-btn">
+                  <a href="index.html">Make Reservation</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-shape"></div>
+        </div>
+    </section>
+    <!-- Banner section end -->
+    <!-- About Section start -->
+    <section class="our-story py-5 position-relative overflow-hidden">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <div class="story-content" data-aos="fade-right">
+              <span class="story-subtitle">Our Story</span>
+              <h2 class="story-title mt-2 mb-4">
+                Traditional & Modern <br />
+                Service <span class="highlight">Since 1970</span>
+              </h2>
+              <p class="text-muted mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit purus egestas diam
+                egestas suspendisse amet ultricies eu. Eget at porttitor morbi
+                placerat vitae, dolor. Gravida eu vel ac luctus.
+              </p>
+              <div class="signature mb-4">
+                <figure><img src="images/signature-1.png" alt="Signature" class="img-fluid" width="150">
+                </figure>
+              </div>
+              <a href="#" class="btn btn-story">Our Story</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-6">
+            <div class="story-img-wrapper position-relative">
+              <div class="bg-circle"></div>
+              <figure><img src="images/about-1.png" class="img-fluid main-img" alt="Chef"></figure>
+
+              <figure><img src="images/tomato.png" class="floating-img tomato-img" alt="Tomato"></figure>
+
+              <figure><img src="images/vector-1.png" class="floating-img pizza-sketch" alt="Pizza Vector">
+              </figure>
+
+              <figure><img src="images/shape-38.png" class="shape-pulse" alt="Dots"></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+    <!-- Menu Section start -->
+    <section class="menu-section py-5 position-relative overflow-hidden">
+      <figure> <img src="images/shape-38.png" class="shape-dots shape-pulse" alt="dots" loading="lazy" />
+      </figure>
+      <figure><img src="images/shape-4.png" class="shape-leaf" alt="leaf" loading="lazy" /></figure>
+      <figure><img src="images/shape-5.png" class="shape-curve-left" alt="curve" loading="lazy" /></figure>
+      <div class="container position-relative" style="z-index:2;">
+        <div class="text-center mb-5">
+          <span class=" fst-italic Weekly-subtitle mt-">Weekly Specials</span>
+          <h2 class="text-white fw-bold display-5">Menu Of The Day</h2>
+        </div>
+        <div class="row justify-content-center g-5">
+          <div class="col-lg-5">
+            <div class="menu-card-wrapper position-relative">
+              <img src="images/shape-2.png" class="card-shape-top" alt="" loading="lazy" />
+
+              <div class="menu-card p-5 bg-white">
+                <div class="menu-item mb-4">
+                  <div class="d-flex justify-content-between align-items-baseline">
+                    <h5 class="fw-bold">American Combo Menu</h5>
+                    <span class="text-warning fw-bold">$12</span>
+                  </div>
+                  <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipiscing purus egestas diam sit
+                    vitae egestas suspendisse amet ultricies.</p>
+                </div>
+                <div class="menu-item mb-4">
+                  <div class="d-flex justify-content-between align-items-baseline">
+                    <h5 class="fw-bold">Strawberry Jam French Toast</h5>
+                    <span class="text-warning fw-bold">$15</span>
+                  </div>
+                  <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipiscing purus egestas diam sit
+                    vitae egestas suspendisse amet ultricies.</p>
+                </div>
+                <div class="menu-item">
+                  <div class="d-flex justify-content-between align-items-baseline">
+                    <h5 class="fw-bold">Optic Big Breakfast Combo</h5>
+                    <span class="text-warning fw-bold">$20</span>
+                  </div>
+                  <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipiscing purus egestas diam sit
+                    vitae egestas suspendisse amet ultricies.</p>
+                </div>
+              </div>
+              <img src="images/shape-3.png" class="card-shape-bottom" alt="" loading="lazy" />
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="menu-card-wrapper position-relative">
+              <img src="images/shape-2.png" class="card-shape-top" alt="" loading="lazy" />
+
+              <div class="menu-card p-5 bg-white">
+                <div class="menu-item mb-4">
+                  <div class="d-flex justify-content-between align-items-baseline">
+                    <h5 class="fw-bold">American Combo Menu</h5>
+                    <span class="text-warning fw-bold">$12</span>
+                  </div>
+                  <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipiscing purus egestas diam sit
+                    vitae egestas suspendisse amet ultricies.</p>
+                </div>
+                <div class="menu-item mb-4">
+                  <div class="d-flex justify-content-between align-items-baseline">
+                    <h5 class="fw-bold">Strawberry Jam French Toast</h5>
+                    <span class="text-warning fw-bold">$15</span>
+                  </div>
+                  <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipiscing purus egestas diam sit
+                    vitae egestas suspendisse amet ultricies.</p>
+                </div>
+                <div class="menu-item">
+                  <div class="d-flex justify-content-between align-items-baseline">
+                    <h5 class="fw-bold">Optic Big Breakfast Combo</h5>
+                    <span class="text-warning fw-bold">$20</span>
+                  </div>
+                  <p class="text-muted small">Lorem ipsum dolor sit amet consectetur adipiscing purus egestas diam sit
+                    vitae egestas suspendisse amet ultricies.</p>
+                </div>
+              </div>
+              <img src="  images/shape-3.png" class="card-shape-bottom" alt="" loading="lazy" />
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5 pt-4">
+          <a href="#" class=" btn-story rounded-pill px-5 py-2 fw-bold text-white shadow">
+            Download PDF
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+    <!-- Shop Section start -->
+    <section class="shop-section py-5 position-relative overflow-hidden">
+      <div class="shop-bg-layer" style="background-image: url('images/shop-bg.jpg');"></div>
+      <div class="container position-relative" style="z-index: 2;">
+        <div class="d-flex justify-content-between align-items-end mb-5">
+          <div>
+            <span class="story-subtitle">Our Shop</span>
+            <h2 class="fw-bold display-5 mt-2">Our All Delicious & Tasty <br> Product</h2>
+          </div>
+          <div class="shop-nav-btns mb-3">
+            <button class="btn btn-outline-dark rounded-circle me-2 shop-prev"><i
+                class="fas fa-arrow-left"></i></button>
+            <button class="btn btn-outline-dark rounded-circle shop-next"><i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="swiper shop-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="shop-card text-center p-4 bg-white shadow-sm border-0">
+                <div class="img-box mb-4 position-relative overflow-hidden">
+                  <figure> <img src="images/shop-1.png" alt="product" class="img-fluid rounded-circle p-3"
+                      loading="lazy" /></figure>
+                  <div class="add-to-cart-overlay">
+                    <a href="#" class="btn btn-warning btn-story rounded-pill px-4 fw-bold">Add To Cart</a>
+                  </div>
+                </div>
+                <h5 class="fw-bold mb-2">Chicken & vegetable fry</h5>
+                <div class="rating text-warning mb-2 small">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="text-dark fw-bold mb-0">$15:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shop-card text-center p-4 bg-white shadow-sm border-0">
+                <div class="img-box mb-4 position-relative overflow-hidden">
+                  <figure> <img src="images/shop-2.png" alt="product" class="img-fluid rounded-circle p-3"
+                      loading="lazy" /></figure>
+                  <div class="add-to-cart-overlay">
+                    <a href="#" class="btn btn-warning btn-story rounded-pill px-4 fw-bold">Add To Cart</a>
+                  </div>
+                </div>
+                <h5 class="fw-bold mb-2">Strawberry Jam Toast</h5>
+                <div class="rating text-warning mb-2 small">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="text-dark fw-bold mb-0">$15:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shop-card text-center p-4 bg-white shadow-sm border-0">
+                <div class="img-box mb-4 position-relative overflow-hidden">
+                  <figure><img src="images/shop-3.png" alt="product" class="img-fluid rounded-circle p-3"
+                      loading="lazy" /></figure>
+                  <div class="add-to-cart-overlay">
+                    <a href="#" class="btn btn-warning btn-story rounded-pill px-4 fw-bold">Add To Cart</a>
+                  </div>
+                </div>
+                <h5 class="fw-bold mb-2">Penne pasta with meatball</h5>
+                <div class="rating text-warning mb-2 small">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="text-dark fw-bold mb-0">$17:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shop-card text-center p-4 bg-white shadow-sm border-0">
+                <div class="img-box mb-4 position-relative overflow-hidden">
+                  <figure> <img src="images/shop-4.png" alt="product" class="img-fluid rounded-circle p-3"
+                      loading="lazy" /></figure>
+                  <div class="add-to-cart-overlay">
+                    <a href="#" class="btn btn-warning btn-story rounded-pill px-4 fw-bold">Add To Cart</a>
+                  </div>
+                </div>
+                <h5 class="fw-bold mb-2">Fried eggs sandwiches</h5>
+                <div class="rating text-warning mb-2 small">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="text-dark fw-bold mb-0">$20:00</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="shop-card text-center p-4 bg-white shadow-sm border-0">
+                <div class="img-box mb-4 position-relative overflow-hidden">
+                  <figure> <img src="images/shop-1.png" alt="product" class="img-fluid rounded-circle p-3"
+                      loading="lazy" /></figure>
+
+                  <div class="add-to-cart-overlay">
+                    <a href="#" class="btn btn-warning btn-story rounded-pill px-4 fw-bold">Add To Cart</a>
+                  </div>
+                </div>
+                <h5 class="fw-bold mb-2">Chicken & vegetable fry</h5>
+                <div class="rating text-warning mb-2 small">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="text-dark fw-bold mb-0">$15:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Shop Section end -->
+    <!-- Gallery Section start -->
+    <section class="gallery-section py-5 position-relative">
+      <div class="container-fluid p-0">
+        <div class="swiper gallerySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <figure class="m-0">
+                  <img src="images/gallery-1.jpg" alt="Gallery">
+                </figure>
+                <div class="gallery-content">
+                  <h4 class="gallery-title"><a href="#">Top 10 breakfast spots in Paris</a></h4>
+                  <span class="gallery-tag">Breakfast</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <figure class="m-0">
+                  <img src="images/gallery-2.jpg" alt="Gallery">
+                </figure>
+                <div class="gallery-content">
+                  <h4 class="gallery-title"><a href="#">Top 10 breakfast spots in Paris</a></h4>
+                  <span class="gallery-tag">Breakfast</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <figure class="m-0">
+                  <img src="images/gallery-3.jpg" alt="Gallery">
+                </figure>
+                <div class="gallery-content">
+                  <h4 class="gallery-title"><a href="#">Top 10 breakfast spots in Paris</a></h4>
+                  <span class="gallery-tag">Breakfast</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <figure class="m-0">
+                  <img src="images/gallery-1.jpg" alt="Gallery">
+                </figure>
+                <div class="gallery-content">
+                  <h4 class="gallery-title"><a href="#">Top 10 breakfast spots in Paris</a></h4>
+                  <span class="gallery-tag">Breakfast</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-card">
+                <figure class="m-0">
+                  <img src="images/gallery-2.jpg" alt="Gallery">
+                </figure>
+                <div class="gallery-content">
+                  <h4 class="gallery-title"><a href="#">Top 10 breakfast spots in Paris</a></h4>
+                  <span class="gallery-tag">Breakfast</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-nav">
+            <div class="swiper-button-prev gallery-arrow">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-button-next gallery-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery Section end -->
+    <!-- Promotion Section start -->
+    <section class="promo-section">
+      <div class="container">
+        <div class="sec-title text-center centred mb_45">
+          <span class="sub-title">Promotion</span>
+          <h2 class="">Check Our All Flavours
+            Summer <br /> Promo</h2>
+        </div>
+        <!-- Item 1 -->
+        <div class="promo-item">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="promo-img">
+                <figure><img src="images/promotion-1.jpg" alt=""></figure>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="promo-content">
+                <h3>Over <span>250</span> Delicious & Tasty Recipes</h3>
+                <p class="offer">Get 25% Off</p>
+                <p class="offer2">Lorem ipsum dolor sit amet consectetur adipiscing elit purus egestas.</p>
+                <a href="#" class="btn-story">Let's Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="promo-item reverse">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="promo-img">
+                <figure> <img src="images/promotion-2.jpg" alt=""></figure>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="promo-content">
+                <h3>Over <span>250</span> Delicious & Tasty Recipes</h3>
+                <p class="offer">Get 25% Off</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit purus egestas.</p>
+                <a href="#" class="btn-story">Let's Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Promotion Section end -->
+    <!-- Testimonials Secition start -->
+    <section class="testimonial-area position-relative py-5">
+      <div class="shapes">
+        <img src="images/tomato.png" class="shape tomato" alt="tomato">
+        <img src="images/image-2.png" class="shape capsicum" alt="capsicum">
+        <div class="plus-pattern"></div>
+      </div>
+
+      <div class="container-fluid px-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12 text-start">
+            <div class="chef-image-box position-relative">
+              <img src="images/men-1.png" class="img-fluid main-chef" alt="Chef">
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 ps-lg-5">
+            <div class="testimonial-content-box">
+              <span class="sub-title ">Testimonials</span>
+              <h2 class="display-5 fw-bold mb-4">What Clients Say <br>About <span class="text-gold">Ticrou</span></h2>
+
+              <div class="quote-badge-box my-4">
+                <div class="quote-circle">99</div>
+              </div>
+
+              <div class="testimonial-text">
+                <p class="text-muted fst-italic fs-5">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet sit purus tempor dui. Pharetra
+                  consequat nibh elit urna interdum. Viverra quam a arcu duis Quis lectus donec nulladui sit in viverra
+                  tempus risus."
+                </p>
+              </div>
+
+              <div class="user-info d-flex align-items-center mt-4">
+                <img src="images/testimonial-1.jpg" class="rounded-circle me-3" width="60" height="60"
+                  alt="User">
+                </figure>
+
+                <div>
+                  <div class="stars text-warning mb-1">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star text-secondary"></i>
+                  </div>
+                  <h5 class="mb-0 fw-bold">Sandra Bullock</h5>
+                  <small class="text-muted">Manager</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Secition end -->
+    <!-- cta-section start -->
+    <section class="cta-section p-6">
+      <figure> <img src="images/shape-11.png" alt="pattern" class="shape shape-11"></figure>
+      <figure><img src="images/shape-12.png" alt="pattern" class="shape shape-12"></figure>
+      <figure><img src="images/shape-13.png" alt="pattern" class="shape shape-13"></figure>
+      <div class="container cta-content">
+        <div class="row justify-content-center">
+          <div class="col-xl-9 col-lg-11">
+            <p class="cta-discount">Get 25% Discount</p>
+            <h2 class="cta-title">Explore Special Taste & The <br class="d-none d-md-block"> Best Quality</h2>
+            <a href="#" class="btn-reservation">Make A Reservation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cta-section end -->
+    <!-- News Section Start -->
+    <section class="news-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="news-subtitle">Ticrou News</span>
+          <h2 class="news-title">Know More About The <br> Ticrou Article</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="news-card">
+              <div class="news-img-box">
+                <figure><img src="images/news-1.jpg" alt="News 1" loading="lazy" /></figure>
+                <div class="news-overlay"></div>
+                <div class="date-badge">
+                  10 <span>APRIL</span>
+                </div>
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span><i class="far fa-user"></i> Admin</span>
+                  <span><i class="far fa-comment"></i> 0 Comment</span>
+                </div>
+                <h4><a href="#">Truly Amazing Blueberry Recipes</a></h4>
+                <p>In ornare pellentesque sed elementum sed ac adipiscing suscipit.</p>
+                <a href="#" class="btn-readmore">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="news-card">
+              <div class="news-img-box">
+                <figure><img src="images/news-2.jpg" alt="News 2" loading="lazy" /></figure>
+                <div class="news-overlay"></div>
+                <div class="date-badge">
+                  12 <span>APRIL</span>
+                </div>
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span><i class="far fa-user"></i> Admin</span>
+                  <span><i class="far fa-comment"></i> 4 Comment</span>
+                </div>
+                <h4><a href="#">The benefits of Buffalo Meat</a></h4>
+                <p>In ornare pellentesque sed elementum sed ac adipiscing suscipit.</p>
+                <a href="#" class="btn-readmore">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="news-card">
+              <div class="news-img-box">
+                <figure><img src="images/news-3.jpg" alt="News 3" loading="lazy"></figure>
+                <div class="news-overlay"></div>
+
+                <div class="date-badge">
+                  11 <span>APRIL</span>
+                </div>
+              </div>
+              <div class="news-content">
+                <div class="news-meta">
+                  <span><i class="far fa-user"></i> Admin</span>
+                  <span><i class="far fa-comment"></i> 1 Comment</span>
+                </div>
+                <h4><a href="#">The benefits of Buffalo Meat</a></h4>
+                <p>In ornare pellentesque sed elementum sed ac adipiscing suscipit.</p>
+                <a href="#" class="btn-readmore">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- News Section end -->
+    <!-- order section start -->
+    <section class="order-section py-5 position-relative overflow-hidden" id="order-section">
+      <figure class="order-shape shape-top-right">
+        <img src="images/shape-17.png" class="img-fluid" alt="decorative plus pattern">
+      </figure>
+
+      <figure class="order-shape shape-top-left">
+        <img src="images/shape-16.png" class="img-fluid" alt="decorative circle pattern">
+      </figure>
+
+      <figure class="order-shape shape-bottom-left">
+        <img src="images/shape-18.png" class="img-fluid" alt="decorative wave pattern left">
+      </figure>
+
+      <figure class="order-shape shape-bottom-right">
+        <img src="images/shape-15.png" class="img-fluid" alt="decorative wave pattern right">
+      </figure>
+
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h5 class="order-subtitle">Table Booking</h5>
+          <h2 class="order-title">Pre-Order to Make a Reservation</h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-xl-9">
+            <div class="order-form-wrapper bg-white shadow-lg p-4 p-md-5">
+              <form>
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2">
+                      <input type="text" class="form-control border-0 bg-transparent" placeholder="Full name" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2">
+                      <input type="email" class="form-control border-0 bg-transparent" placeholder="Email address"
+                        required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2">
+                      <input type="tel" class="form-control border-0 bg-transparent" placeholder="Phone number"
+                        required>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2">
+                      <select class="form-select border-0 shadow-none bg-transparent">
+                        <option selected disabled>Occasion</option>
+                        <option value="1">Occasion 01</option>
+                        <option value="2">Occasion 02</option>
+                        <option value="3">Occasion 03</option>
+                        <option value="4">Occasion 04</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2">
+                      <select class="form-select border-0 shadow-none bg-transparent">
+                        <option selected disabled>Preferred food</option>
+                        <option value="1">Preferred food 01</option>
+                        <option value="2">Preferred food 02</option>
+                        <option value="1">Preferred food 03</option>
+                        <option value="2">Preferred food 04</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2">
+                      <select class="form-select border-0 shadow-none bg-transparent">
+                        <option selected disabled>Number of persons</option>
+                        <option value="1">Number of persons 01</option>
+                        <option value="2">Number of persons 02</option>
+                        <option value="1">Number of persons 03</option>
+                        <option value="2">Number of persons 04</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2">
+                      <select class="form-select border-0 shadow-none bg-transparent">
+                        <option selected disabled>Booking type</option>
+                        <option value="1">Booking type 01</option>
+                        <option value="2">Booking type 02</option>
+                        <option value="1">Booking type 03</option>
+                        <option value="2">Booking type 04</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group border-bottom py-2 position-relative">
+                      <input type="date" class="form-control border-0 bg-transparent p-0">
+                    </div>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <div class="form-group border-bottom py-2">
+                      <input type="text" class="form-control border-0 bg-transparent" placeholder="Special request">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center mt-5">
+                  <button type="submit" class="btn btn-order px-5 py-3 rounded-pill fw-bold">Make A Reservation</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- order section end -->
+  </main>
+
+  <!-- Footer start -->
+  <footer class="ticrou-footer py-3">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-lg-4 text-lg-right text-lg-end">
+          <div class="footer-opening">Opening Times</div>
+          <ul class="footer-info1">
+            <li>Monday Thursday: 08AM - 10PM</li>
+            <li>Friday Saturday: 10AM - 11:30PM</li>
+            <li>Sunday: <span>Closed</span></li>
+            <li>Booking Time: 24 / 7 Hours</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="footer-center position-relative">
+            <a href="" class="left-shape"><img src="images/shape-19.png" alt="shape" /></a>
+            <div class="footer-logo mb-3">
+              <a href="#">
+                <img src="images/footer-logo.png" alt="Ticrou Logo" /></a>
+            </div>
+            <p class="footer-desc">
+              Tincidunt neque pretium lectus donec risus. Mauris mi tempor
+              nunc orci leo consequat vitae erat gravida lobortis nec et
+              sagittis.
+            </p>
+            <div class="footer-social justify-content-center mt-4">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="" class="right-shape"><img src="images/shape-20.png" alt="shape" /></a>
+          </div>
+        </div>
+        <div class="col-lg-3 text-align-center text-star">
+          <div class="footer-heading">Contact Info</div>
+          <ul class="footer-info">
+            <li><span>Address:</span> New Hyde Park, NY 11040</li>
+            <li><span>Email:</span> example@info.com</li>
+            <li><span>Call:</span> (+91) 213 666 0027</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom text-center mt-3 pt-3">
+        <p class="mb-0">
+          Copyright 2022 by
+          <a href="index.html" class="footer-ticrou">ticrou</a> All Right
+          Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+
+
+
+  <!-- Swiper Js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Boostrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    let bannerSwiper = new Swiper(".bannerSwiper", {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      speed: 1500,
+      effect: "fade",
+    });
+  </script>
+
+  <script>
+    let shopSlide = new Swiper(".shop-swiper", {
+      slidesPerView: 3,
+      spaceBetween: 50,
+      loop: true,
+      centeredSlides: true,
+
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+      speed: 1800,
+
+      navigation: {
+        nextEl: ".shop-next",
+        prevEl: ".shop-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1
+        },
+        768: {
+          slidesPerView: 2
+        },
+        992: {
+          slidesPerView: 3
+        }
+      }
+    });
+  </script>
+
+  <script>
+    let gallerySwiper = new Swiper(".gallerySwiper", {
+      slidesPerView: 1.5,
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false
+      },
+
+      speed: 1200,   // smooth slide speed
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+      breakpoints: {
+        768: {
+          slidesPerView: 2.2
+        },
+        1200: {
+          slidesPerView: 2.5
+        }
+      }
+    });
+  </script>
+
+  <script>
+    document
+      .querySelector(".menu-close")
+      .addEventListener("click", function () {
+        let navbarCollapse = document.getElementById("navbarNav");
+        let bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+
+        if (bsCollapse) {
+          bsCollapse.hide();
+        } else {
+          navbarCollapse.classList.remove("show");
+        }
+      });
+  </script>
+</body>
+
+</html>
